@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 import Home from "./pages/Home";
 import QuemSomos from "./pages/QuemSomos";
 import Produtos from "./pages/Produtos";
@@ -9,6 +10,7 @@ import "./App.css";
 const App: React.FC = () => {
   return (
     <Router>
+      <ScrollToTop />
       <div className="font-sans min-h-screen w-full">
         <Routes>
           <Route path="/" element={<Home />} />

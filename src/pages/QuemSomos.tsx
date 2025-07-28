@@ -42,7 +42,7 @@ const QuemSomos: React.FC = () => {
             Quem <span className="text-red-400">Somos</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-12">
-            Há mais de 10 anos no mercado, somos referência em tintas e
+            Há mais de 5 anos no mercado, somos referência em tintas e
             acabamentos em Cuiabá e região, oferecendo produtos de qualidade e
             atendimento especializado.
           </p>
