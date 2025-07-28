@@ -32,15 +32,39 @@ const Footer: React.FC = () => {
     variableWidth: false,
     prevArrow: (
       <div className="custom-prev-arrow">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M15 18L9 12L15 6" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15 18L9 12L15 6"
+            stroke="currentColor"
+            strokeWidth="3"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
         </svg>
       </div>
     ),
     nextArrow: (
       <div className="custom-next-arrow">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M9 18L15 12L9 6" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9 18L15 12L9 6"
+            stroke="currentColor"
+            strokeWidth="3"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
         </svg>
       </div>
     ),
@@ -73,11 +97,12 @@ const Footer: React.FC = () => {
     <footer className="relative w-full bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white overflow-hidden">
       {/* Background decorativo */}
       <div className="absolute inset-0">
-        <div className="absolute inset-0 opacity-[0.02]" 
-             style={{
-               backgroundImage: `radial-gradient(circle at 1px 1px, white 1px, transparent 0)`,
-               backgroundSize: '40px 40px'
-             }} 
+        <div
+          className="absolute inset-0 opacity-[0.02]"
+          style={{
+            backgroundImage: `radial-gradient(circle at 1px 1px, white 1px, transparent 0)`,
+            backgroundSize: "40px 40px",
+          }}
         />
         {/* Elementos flutuantes */}
         <div className="absolute top-10 right-20 w-1 h-1 bg-red-400/30 rounded-full animate-pulse" />
@@ -92,7 +117,7 @@ const Footer: React.FC = () => {
             <span className="text-red-400 ml-2">Parceiras</span>
           </h2>
           <div className="h-0.5 w-32 bg-gradient-to-r from-red-500 via-white to-red-500 mx-auto rounded-full mb-16" />
-          
+
           <div className="max-w-6xl mx-auto relative">
             <style>
               {`
@@ -145,7 +170,7 @@ const Footer: React.FC = () => {
                 }
               `}
             </style>
-            
+
             <Slider {...settings}>
               {brands.map((brand, index) => (
                 <div key={index} className="px-4">
@@ -171,21 +196,31 @@ const Footer: React.FC = () => {
                 <span className="text-red-400 ml-2">Nossa Loja</span>
               </h3>
               <div className="h-0.5 w-24 bg-gradient-to-r from-red-500 to-white rounded-full mb-8" />
-              
+
               <div className="space-y-6 text-lg text-white/80 leading-relaxed">
                 <p>
-                  Localizada em ponto estratégico da cidade, nossa loja oferece uma
-                  variedade completa de tintas e soluções para pintura residencial,
-                  comercial e industrial.
+                  Localizada no coração de Varzea Grande, nossa loja oferece uma
+                  variedade completa de tintas e soluções para pintura
+                  residencial, comercial e industrial.
                 </p>
                 <p>
-                  Trabalhamos com <span className="text-red-400 font-semibold">marcas reconhecidas</span> e
-                  prezamos pelo atendimento de qualidade, buscando sempre ajudar o
-                  cliente a encontrar o melhor custo-benefício para seu projeto.
+                  A{" "}
+                  <span className="text-red-400 font-semibold">
+                    Mega Tintas
+                  </span>{" "}
+                  é uma empresa familiar, administrada com responsabilidade e
+                  dedicação, buscando sempre o melhor para quem confia em nosso
+                  trabalho. Com o passar do tempo, conquistamos a confiança da
+                  comunidade e seguimos crescendo, sempre atentos às
+                  necessidades do mercado e às tendências em pintura e
+                  acabamento.
                 </p>
                 <p>
-                  Nossa equipe é <span className="text-white font-semibold">treinada, comprometida</span> e pronta para te atender com
-                  agilidade e segurança.
+                  Nossa equipe é{" "}
+                  <span className="text-white font-semibold">
+                    treinada, comprometida
+                  </span>{" "}
+                  e pronta para te atender com agilidade e segurança.
                 </p>
               </div>
             </div>

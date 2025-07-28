@@ -1,16 +1,23 @@
 import React from "react";
-import Navbar from "./components/NavBar";
-import Hero from "./components/Hero";
-import Footer from "./components/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import QuemSomos from "./pages/QuemSomos";
+import Produtos from "./pages/Produtos";
+import Contato from "./pages/Contato";
 import "./App.css";
 
 const App: React.FC = () => {
   return (
-    <div className="font-sans min-h-screen w-full">
-      <Navbar />
-      <Hero />
-      <Footer />
-    </div>
+    <Router>
+      <div className="font-sans min-h-screen w-full">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/quem-somos" element={<QuemSomos />} />
+          <Route path="/produtos" element={<Produtos />} />
+          <Route path="/contato" element={<Contato />} />
+        </Routes>
+      </div>
+    </Router>
   );
 };
 
