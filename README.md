@@ -7,15 +7,16 @@ Este projeto foi desenvolvido para a **empresa Mega Tintas**, com o objetivo de 
 ## ✨ Interface
 
 ### 🏠 Página Inicial
-![Home](./docs/home.png)
+
+![Home](./src/assets/home.png)
 
 ### 🎨 Produtos
-![Produtos](./docs/produtos.png)
+
+![Produtos](./src/assets//produtos.png)
 
 ### 📞 Contato
-![Contato](./docs/contato.png)
 
-> As imagens devem estar salvas na pasta `docs/` dentro do repositório com os nomes: `home.png`, `produtos.png` e `contato.png`.
+![Contato](./src/assets/contato.png)
 
 ---
 
@@ -46,3 +47,4 @@ npm install
 
 # Inicie o servidor local
 npm run dev
+```

@@ -29,7 +29,6 @@ const WhatsAppButton: React.FC = () => {
     >
       <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-green-500 rounded-2xl blur opacity-0 group-hover:opacity-30 transition-opacity duration-500" />
 
-      {/* Content */}
       <div className="relative flex items-center gap-4">
         <div className="bg-white/20 p-2 rounded-xl group-hover:bg-white/30 transition-all duration-300">
           <WhatsAppIcon className="text-2xl" />
@@ -42,7 +41,6 @@ const WhatsAppButton: React.FC = () => {
         </div>
       </div>
 
-      {/* Arrow icon */}
       <svg
         className="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300"
         fill="none"
