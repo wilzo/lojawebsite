@@ -8,7 +8,7 @@ Este projeto foi desenvolvido para a **empresa Mega Tintas**, com o objetivo de 
 
 ### 🏠 Página Inicial
 
-![Home](./src/assets/home.png)
+![Home](./docs/home.png)
 
 ### 🎨 Produtos
 
