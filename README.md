@@ -1,69 +1,48 @@
-# React + TypeScript + Vite
+# 🛍️ Mega Tintas - Website Oficial
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido para a **empresa Mega Tintas**, com o objetivo de suprir as necessidades de **divulgação online** da loja. O site apresenta os produtos disponíveis, facilita o contato com os clientes via WhatsApp e transmite profissionalismo por meio de um design moderno e responsivo.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Interface
 
-## Expanding the ESLint configuration
+### 🏠 Página Inicial
+![Home](./docs/home.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🎨 Produtos
+![Produtos](./docs/produtos.png)
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### 📞 Contato
+![Contato](./docs/contato.png)
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+> As imagens devem estar salvas na pasta `docs/` dentro do repositório com os nomes: `home.png`, `produtos.png` e `contato.png`.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🧪 Tecnologias Utilizadas
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **React**
+- **TypeScript**
+- **Vite**
+- **TailwindCSS**
+- **Google Tag para conversões (WhatsApp)**
+- Deploy com **Vercel**
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 🚀 Rodando Localmente
+
+Siga os passos abaixo para rodar o projeto localmente:
+
+```bash
+# Clone o repositório
+git clone https://github.com/wilzo/lojawebsite.git
+
+# Acesse a pasta
+cd lojawebsite
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor local
+npm run dev
