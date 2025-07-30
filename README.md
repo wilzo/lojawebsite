@@ -18,8 +18,6 @@ Este projeto foi desenvolvido para a **empresa Mega Tintas**, com o objetivo de 
 
 ![Contato](./src/assets/contato.png)
 
-> As imagens devem estar salvas na pasta `docs/` dentro do repositório com os nomes: `home.png`, `produtos.png` e `contato.png`.
-
 ---
 
 ## 🧪 Tecnologias Utilizadas
