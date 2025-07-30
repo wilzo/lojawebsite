@@ -243,6 +243,9 @@ const Footer: React.FC = () => {
           <p className="text-white/60 text-sm">
             © 2025 Mega Tintas. Todos os direitos reservados.
           </p>
+          <span className="text-red-600 text-sm">
+            Desenvolvido por Wilson Hernandes
+          </span>
         </div>
       </div>
     </footer>

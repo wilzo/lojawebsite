@@ -104,13 +104,11 @@ const Footer: React.FC = () => {
             backgroundSize: "40px 40px",
           }}
         />
-        {/* Elementos flutuantes */}
         <div className="absolute top-10 right-20 w-1 h-1 bg-red-400/30 rounded-full animate-pulse" />
         <div className="absolute bottom-20 left-10 w-1.5 h-1.5 bg-red-400/20 rounded-full animate-ping" />
       </div>
 
       <div className="relative z-10 w-full px-6 py-20">
-        {/* Marcas */}
         <div className="text-center mb-24">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">
             <span className="font-light">Marcas</span>
@@ -187,7 +185,6 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Sobre nossa loja */}
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col lg:flex-row items-center gap-16">
             <div className="lg:w-3/5 text-left">
@@ -235,7 +232,6 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Rodapé final */}
         <div className="mt-20 pt-8 border-t border-white/10 text-center">
           <p className="text-white/60 text-sm">
             © 2025 Mega Tintas. Todos os direitos reservados.

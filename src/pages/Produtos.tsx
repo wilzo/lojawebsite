@@ -3,7 +3,6 @@ import Navbar from "../components/NavBar";
 import Footer from "../components/Footer";
 import WhatsAppButton from "../components/WhatsAppButton";
 
-// Importando as imagens dos produtos
 import anjoEmborrachadaImg from "../assets/Produto/anjoEmborrachada.png";
 import brasilineEsmalteImg from "../assets/Produto/brasilineEsmalte.png";
 import brasiluxEsmalteImg from "../assets/Produto/brasiluxEsmalte.png";
@@ -17,6 +16,11 @@ import maxnorthstandard18ltImg from "../assets/Produto/maxnorthstandard18lt.png"
 import pintamax18ltImg from "../assets/Produto/pintamax18lt.png";
 import rendemuitocoral18ltImg from "../assets/Produto/rendemuitocoral18lt.png";
 import sprayImg from "../assets/Produto/spray.png";
+import neopisoimg from "../assets/Produto/neopiso_1.png";
+import plasluximg from "../assets/Produto/plasluxpNg.png";
+import maxnorthesmalteimg from "../assets/Produto/esmaltemaxnorthpng.png";
+import neovinilesmalteimg from "../assets/Produto/esmalteneovinil_1.png";
+import neofleximg from "../assets/Produto/neoflex_1.png";
 import texturacolortrixImg from "../assets/Produto/texturacolortrix.png";
 
 const Produtos: React.FC = () => {
@@ -48,24 +52,24 @@ Obrigado!`;
       categoria: "Esmalte e Vernizes",
       items: [
         {
-          nome: "Brasiline Esmalte",
+          nome: "Esmalte Maxnorth",
           descricao:
             "Esmalte sintético de alta qualidade para madeiras e metais internos",
+          imagem: maxnorthesmalteimg,
+          preco: "Consulte",
+        },
+        {
+          nome: "Brasiline Esmalte industrial",
+          descricao:
+            "Esmalte premium com acabamento brilhante e proteção duradoura",
           imagem: brasilineEsmalteImg,
           preco: "Consulte",
         },
         {
-          nome: "Brasilux Esmalte",
+          nome: "Esmalte Neovinil 18LT e 3,6LT",
           descricao:
-            "Esmalte premium com acabamento brilhante e proteção duradoura",
-          imagem: brasiluxEsmalteImg,
-          preco: "Consulte",
-        },
-        {
-          nome: "Brasilux Esmalte",
-          descricao:
-            "Esmalte premium com acabamento brilhante e proteção duradoura",
-          imagem: brasiluxEsmalteImg,
+            "Esmalte premium da marca Neovinil com acabamento brilhante e proteção duradoura",
+          imagem: neovinilesmalteimg,
           preco: "Consulte",
         },
         {
@@ -81,28 +85,27 @@ Obrigado!`;
       categoria: "Tintas Internas",
       items: [
         {
-          nome: "Pintamax 18L",
+          nome: "Pintamax Maxvinil Economica 18L",
           descricao:
             "Tinta látex econômica ideal para paredes internas com boa cobertura",
           imagem: pintamax18ltImg,
           preco: "Consulte",
         },
         {
-          nome: "Brasiline Esmalte",
-          descricao:
-            "Esmalte sintético de alta qualidade para madeiras e metais internos",
-          imagem: brasilineEsmalteImg,
+          nome: "Tinta Plaslux 16LT para pinturas interiores",
+          descricao: "Tinta acrílica de alta qualidade para ambientes internos",
+          imagem: plasluximg,
           preco: "Consulte",
         },
         {
-          nome: "Maxnorth 18L",
+          nome: "Maxnorth 18L Economica",
           descricao:
             "Tinta acrílica para fachadas com máxima resistência às intempéries",
           imagem: maxnorth18ltImg,
           preco: "Consulte",
         },
         {
-          nome: "Colortrix Balde",
+          nome: "Colortrix balde economico 16lt",
           descricao:
             "Tinta texturizada em balde para grandes superfícies externas",
           imagem: colortrixbaldeImg,
@@ -146,6 +149,20 @@ Obrigado!`;
           descricao:
             "Tinta emborrachada impermeabilizante para lajes e terraços",
           imagem: anjoEmborrachadaImg,
+          preco: "Consulte",
+        },
+        {
+          nome: "Tinta Emborrachada Neoflex Neovnil",
+          descricao:
+            "Tinta emborrachada impermeabilizante para lajes e terraços com alta flexibilidade e resistência",
+          imagem: neofleximg,
+          preco: "Consulte",
+        },
+        {
+          nome: "NeoPiso Neovinil",
+          descricao:
+            "Tinta para pisos de concreto com alta aderência e resistência",
+          imagem: neopisoimg,
           preco: "Consulte",
         },
       ],
